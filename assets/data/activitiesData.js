@@ -29,6 +29,11 @@ const activitiesData = [
     title: 'WATER SKI',
     image: require('../images/water-ski.png'),
   },
+  {
+    id: 'activites100',
+    title: 'RUN',
+    image: require('../images/water-ski.png'),
+  },
 ];
 
 export default activitiesData;

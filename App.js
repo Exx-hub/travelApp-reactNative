@@ -32,7 +32,7 @@ const TabNavigator = () => {
         tabBarStyle: styles.tabBar,
         tabBarActiveTintColor: colors.orange,
         tabBarInactiveTintColor: colors.gray,
-        tabBarShowLabel: false,
+        tabBarShowLabel: false, // bottom tab label below icon
       }}>
       <Tab.Screen
         name="Home"
@@ -41,7 +41,7 @@ const TabNavigator = () => {
           tabBarIcon: ({color}) => (
             <Entypo name="home" size={32} color={color} />
           ),
-          headerShown: false,
+          headerShown: false, // header of tab screen
         }}
       />
       <Tab.Screen
@@ -75,7 +75,7 @@ const App = () => {
         <Stack.Screen
           name="ALVIN"
           component={TabNavigator}
-          options={{headerShown: false}}
+          options={{headerShown: false}} // header of stack screen
         />
         <Stack.Screen
           name="Details"
