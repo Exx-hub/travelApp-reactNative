@@ -175,6 +175,7 @@ const styles = StyleSheet.create({
   },
   discoverImageBG: {
     borderRadius: 20,
+    // height: 250,
   },
   discoverItemTitle: {
     fontFamily: 'Lato-Bold',
